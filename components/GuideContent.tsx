@@ -127,16 +127,18 @@ export function GuideContent() {
             </ul>
           </div>
 
-          <h3>Weather & Environment in Early May</h3>
-          <p>
-            Early May marks the beginning of the Southwest Monsoon season. While generally warm and beautiful, short rain showers and occasional wind are possible.
-          </p>
-          <ul>
-            <li><strong>Temperature:</strong> 28–32°C (warm and humid)</li>
-            <li><strong>Humidity:</strong> High</li>
-            <li><strong>Rain:</strong> Short tropical showers, often passing quickly</li>
-            <li><strong>Sunlight:</strong> Strong UV levels</li>
-          </ul>
+          <div className="bg-sky-50 p-6 rounded-2xl my-8 border border-sky-100">
+            <h3 className="text-xl font-semibold text-slate-900 mt-0 mb-4">Weather & Environment in Early May</h3>
+            <p className="mb-4">
+              Early May marks the beginning of the Southwest Monsoon season. While generally warm and beautiful, short rain showers and occasional wind are possible.
+            </p>
+            <ul className="grid sm:grid-cols-2 gap-3 mt-0 mb-0 list-none pl-0">
+              <li className="flex items-start gap-2"><CheckCircle2 className="w-5 h-5 text-sky-600 shrink-0 mt-0.5" /> <strong>Temperature:</strong> 28–32°C (warm and humid)</li>
+              <li className="flex items-start gap-2"><CheckCircle2 className="w-5 h-5 text-sky-600 shrink-0 mt-0.5" /> <strong>Humidity:</strong> High</li>
+              <li className="flex items-start gap-2"><CheckCircle2 className="w-5 h-5 text-sky-600 shrink-0 mt-0.5" /> <strong>Rain:</strong> Short tropical showers, often passing quickly</li>
+              <li className="flex items-start gap-2"><CheckCircle2 className="w-5 h-5 text-sky-600 shrink-0 mt-0.5" /> <strong>Sunlight:</strong> Strong UV levels</li>
+            </ul>
+          </div>
         </div>
       </section>
 
