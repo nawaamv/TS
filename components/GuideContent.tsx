@@ -8,11 +8,12 @@ export function GuideContent() {
       <section className="space-y-8">
         <div className="relative w-full h-[300px] md:h-[400px] rounded-3xl overflow-hidden shadow-xl">
           <Image 
-            src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=1920"
-            alt="Maldives Aerial View"
+            src="https://www.issa.int/sites/default/files/styles/opengraph/public/images/events/2026/ts-crossroads2026-banner.jpg"
+            alt="ISSA Technical Seminar Banner"
             fill
             className="object-cover"
             priority
+            unoptimized
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
@@ -102,7 +103,7 @@ export function GuideContent() {
         <h2 className="text-3xl font-bold text-slate-900 mb-6">3. The Venue: Crossroads Maldives</h2>
         <div className="relative w-full h-[400px] rounded-2xl overflow-hidden mb-8 shadow-md">
           <Image 
-            src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&q=80&w=1200"
+            src="https://crossroadsmaldives.com/wp-content/uploads/2025/12/hero-n1.webp"
             alt="Crossroads Maldives Integrated Destination"
             fill
             className="object-cover"
@@ -113,6 +114,8 @@ export function GuideContent() {
           <p>
             Crossroads Maldives is the first multi-island integrated leisure destination in the Maldives, combining modern facilities with the relaxed charm of island life. The destination is located in the South Malé Atoll, just 15 minutes from Velana International Airport by speedboat.
           </p>
+
+
           
           <div className="bg-slate-50 p-6 rounded-2xl my-8 border border-slate-100">
             <h3 className="text-xl font-bold text-slate-900 mt-0 mb-4">What you&apos;ll find at Crossroads</h3>
@@ -142,8 +145,8 @@ export function GuideContent() {
         <h2 className="text-3xl font-bold text-slate-900 mb-6">4. Your Stay: Accommodation Options</h2>
         <div className="relative w-full h-[300px] rounded-2xl overflow-hidden mb-8 shadow-md">
           <Image 
-            src="https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=1200"
-            alt="Maldives Accommodation"
+            src="https://crossroadsmaldives.com/wp-content/uploads/2023/06/saii-1.webp"
+            alt="SAii Lagoon Maldives Accommodation"
             fill
             className="object-cover"
             referrerPolicy="no-referrer"
@@ -240,7 +243,7 @@ export function GuideContent() {
         <h2 className="text-3xl font-bold text-slate-900 mb-6">6. Arrival in Maldives</h2>
         <div className="relative w-full h-[250px] rounded-2xl overflow-hidden mb-8 shadow-md">
           <Image 
-            src="https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?auto=format&fit=crop&q=80&w=1200"
+            src="https://travelution.media/panel-content/uploads/2024/11/439312281_728056672876223_3350112501665947394_n.jpg"
             alt="Arrival in Maldives"
             fill
             className="object-cover"
@@ -424,7 +427,7 @@ export function GuideContent() {
         <h2 className="text-3xl font-bold text-slate-900 mb-6">11. Experience Malé</h2>
         <div className="relative w-full h-[300px] rounded-2xl overflow-hidden mb-8 shadow-md">
           <Image 
-            src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&q=80&w=1200"
+            src="https://vacationtomaldives.com/wp-content/uploads/male-capital-of-maldives.jpg"
             alt="Malé City Skyline"
             fill
             className="object-cover"

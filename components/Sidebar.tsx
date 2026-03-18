@@ -59,7 +59,7 @@ export function Sidebar({ className = '' }: { className?: string }) {
       <div className="relative p-6 border-b border-slate-100 flex items-center gap-4 overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <Image 
-            src="https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?auto=format&fit=crop&q=80&w=400"
+            src="https://travelution.media/panel-content/uploads/2024/11/439312281_728056672876223_3350112501665947394_n.jpg"
             alt="Maldives"
             fill
             className="object-cover opacity-10"
