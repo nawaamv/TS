@@ -59,7 +59,7 @@ export function Sidebar({ className = '' }: { className?: string }) {
       <div className="relative p-6 border-b border-slate-100 flex items-center gap-4 overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <Image 
-            src="https://travelution.media/panel-content/uploads/2024/11/439312281_728056672876223_3350112501665947394_n.jpg"
+            src="https://crossroadsmaldives.com/wp-content/uploads/2023/06/saii-1.webp"
             alt="Maldives"
             fill
             className="object-cover opacity-10"
@@ -68,7 +68,7 @@ export function Sidebar({ className = '' }: { className?: string }) {
         </div>
         <Logo className="w-10 h-10 shrink-0" />
         <div>
-          <h1 className="font-bold text-slate-900 leading-tight">ISSA Seminar</h1>
+          <h1 className="font-bold text-slate-900 leading-tight">Technical Seminar</h1>
           <p className="text-xs text-slate-500 font-medium uppercase tracking-wider mt-1">Participant Guide</p>
         </div>
       </div>

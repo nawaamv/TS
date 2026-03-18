@@ -13,7 +13,7 @@ export function MobileNav() {
       <div className="md:hidden sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Logo className="w-8 h-8 shrink-0" />
-          <span className="font-bold text-slate-900">ISSA Seminar</span>
+          <span className="font-bold text-slate-900"> Technical Seminar </span>
         </div>
         <button 
           onClick={() => setIsOpen(!isOpen)}
