@@ -210,11 +210,11 @@ export function GuideContent() {
               <ul className="space-y-3 text-sm text-slate-600">
                 <li className="flex justify-between border-b border-slate-100 pb-2">
                   <span>Morning</span>
-                  <span className="font-medium text-slate-900">08:00–08:30 (TBC)</span>
+                  <span className="font-medium text-slate-900">TBC</span>
                 </li>
                 <li className="flex justify-between pt-1">
                   <span>Evening</span>
-                  <span className="font-medium text-slate-900">After 16:00 (TBC)</span>
+                  <span className="font-medium text-slate-900">TBC</span>
                 </li>
               </ul>
               <p className="text-xs text-slate-500 mt-4">Please arrive at least 15 minutes before departure. Boats cannot be delayed.</p>
